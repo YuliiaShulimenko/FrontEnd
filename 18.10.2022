@@ -1,0 +1,136 @@
+Роза,у меня почему-то сьехал весь сайт,при запуске,не могу понять в чем дело
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+<div class="container">
+    <form >
+        <div class="form-left">
+            <h1 class="contact-header">Contact Us</h1>
+            <p class="contact-text">
+                We’re here to help! Send us your query via the form below or send us an email at    <a href="maito: helpdesk@gstudio.com" class="contact-link">helpdesk@gstudio.com</a> for any issue you’re facing
+            </p>
+            <p class="p-text">Name</p>
+            <input class="input-text" type="text">
+            <input class="input-email" type="email" placeholder="Email Address">
+            <textarea class="textarea" name="" id="" cols="30" rows="10" placeholder="Type your massage here"></textarea>
+            <buttonc class="submit">Submit</button>
+        </div>
+        <div class="form-right">
+        <img class="form-image" src="/image/Tech support call on the computer.png" alt="">
+        </div>
+    </form>
+</div>
+ 
+</body>
+</html>
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: conic-gradient(from -1.64deg at 52.89% 52.66%, #9FE6EA -34.2deg, #A5E3E7 85.25deg, #F0DAC2 153.64deg, #F7E3CD 280.49deg, #9FE6EA 325.8deg, #A5E3E7 445.25deg);
+  font-family: 'Happy Monkey', cursive;
+}
+.contact-header {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #000000;
+  padding-top: 97px;
+  margin-bottom: 25px;
+}
+.contact-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 47px;
+}
+.contact-link {
+  color: #5FC3CA;
+}
+.p-text {
+  font-size: 13px;
+  line-height: 16px;
+  color: #5FC3CA;
+  margin-bottom: 6px;
+}
+form{
+  display: flex;
+  padding: 303px 412px 333px 380px;
+}
+.form-left{
+  display: flex;
+  flex-direction: column;
+  width: 851px;
+  background-color: #fff;
+  padding-left: 75px;
+  border-radius: 20px 0 0 20px;
+}
+.form-right{
+  background: #5FC3CA;
+  width: 661px;
+  border-radius: 0 20px 20px 0;
+}
+.input-text,
+.input-email,
+.textarea{
+width: 427px;
+background-color: rgba(244, 244, 244, 1);
+border: none;
+border-radius: 5px 5px 0 0;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+padding: 14px;
+}
+.input-text{
+ margin-bottom: 40px;
+ border-bottom: 2px solid rgba(95,195,202,1);
+}
+.input-email{
+margin-bottom: 40px;
+}
+.textarea{
+    margin-bottom: 109px;
+    height: 217px;
+    resize: none;
+}
+.input-email,
+.textarea{
+    border-bottom: 2px solid;
+}
+.submit{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    background: #5FC3CA;
+    padding: 11px 80px 13px 80px;
+    color: #fff;
+    width: 231px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 105px;
+    margin-left: 235px;
+}
+.form-image{
+    padding: 369px 93px 138px 93px;
+}
